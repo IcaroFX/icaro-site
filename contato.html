@@ -2,17 +2,15 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contato</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="navbar">
+<div class="navbar">
   <div class="logo">Minha Calculadora</div>
-  
   <button class="menu-toggle">&#9776;</button>
-
   <nav class="nav-links">
     <a href="index.html">IMC</a>
     <a href="calorias.html">Calorias</a>
@@ -20,20 +18,19 @@
   </nav>
 </div>
 
-</nav>
-
-<section class="container">
+<div class="container">
   <h2>Contato</h2>
-  <p>Envie sugestões para: <a href="mailto:contato@saudemas.com">contato@saudemas.com</a></p>
-</section>
+  <p>Entre em contato conosco pelo e-mail: contato@minhacalculadora.com</p>
+</div>
 
 <footer>
-  &copy; 2025 Saúde+. Todos os direitos reservados.
+  &copy; 2025 Minha Calculadora
 </footer>
+
 <script>
   const toggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
-
+  
   toggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
